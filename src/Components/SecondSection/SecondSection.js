@@ -1,7 +1,5 @@
 import React from 'react';
 import './SecondSection.css'
-import 'bootstrap/dist/css/bootstrap.css';
-import Carousel from 'react-bootstrap/Carousel';
 
 
 function SecondSection() {
@@ -24,9 +22,7 @@ function SecondSection() {
                 />
                 <p>+ de 112 mil trabalhadores formais na região</p>
               </div>
-            </div>
-            <div className='cards-icones-itens'>
-            <div className='wrapper-itens'>
+              <div className='wrapper-itens'>
               <img src="./icones-metro.png" alt="icones sobre metro"
               />
               <p>mobilidade e fácil acesso a 5 linhas de metro</p>
@@ -36,7 +32,7 @@ function SecondSection() {
               />
               <p>bares e restaurantes na localidade</p>
             </div>
-          </div>
+            </div>
         </div>
 
         
