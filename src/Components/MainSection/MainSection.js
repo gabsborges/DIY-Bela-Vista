@@ -14,7 +14,7 @@ function MainSection() {
         <div className='mainSection'>
             <div className='mainSection-box'>
                 <div className='mainSection-boxTexto'>
-                    <img src='./UNITY_LOGO.png' />
+                    <img src='./UNITY_LOGO.png' alt='Logo da Unity' />
                     <p>Breve Lançamento</p>
                     <h1>Invista no melhor de <br /><strong>São Paulo.</strong></h1>
                     <h2><strong>Ideal para você</strong> que quer praticidade, sofisticação e lazer no dia a dia!</h2>
@@ -74,15 +74,15 @@ function MainSection() {
                             <button type="submit">Enviar!</button>
                         </div>
                         <div className="loading-box">
-                            <img src="//paginas.rocks/content/images/spinner.gif" />
+                            <img src="//paginas.rocks/content/images/spinner.gif" alt="..." />
                             <div>loading...</div>
                         </div>
                         <div className="error-box">
-                            <img src="//paginas.rocks/content/images/error-icon.png" />
+                            <img src="//paginas.rocks/content/images/error-icon.png" alt="..." />
                             <div></div>
                             <button type="button" className="btn" id="btn-error">Ok</button>
                         </div>
-                        <img src="https://llimages.com/redirect/redirect.aspx?A=V&f=54811&m=667544" style={{display: 'none'}} />
+                        <img src="https://llimages.com/redirect/redirect.aspx?A=V&f=54811&m=667544"  alt="..." style={{display: 'none'}} />
                     </form>
                 </div>
             </div>

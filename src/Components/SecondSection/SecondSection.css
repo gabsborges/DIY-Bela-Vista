@@ -154,7 +154,27 @@ align-items: center;
     }
     .wrapper-itens p{
         font-size: 9px;
-        width: 84px;
+
+    }
+}
+
+@media (max-width: 655px) {
+    .wrapper-itens img{
+        width: 46px;
+    }
+    .wrapper-itens p{
+        font-size: 9px;
+
+    }
+}
+
+@media (max-width: 655px) {
+    .wrapper-itens img{
+        width: 46px;
+    }
+    .wrapper-itens p{
+        font-size: 9px;
+
     }
 }
 
