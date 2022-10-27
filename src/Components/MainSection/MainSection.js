@@ -19,8 +19,7 @@ function MainSection() {
                     <h1>Invista no melhor de <br /><strong>São Paulo.</strong></h1>
                     <h2><strong>Ideal para você</strong> que quer praticidade, sofisticação e lazer no dia a dia!</h2>
                     <div className='mainSection-boxTexto-botoes'>
-                        <a className='botao-amarelo' href=''>Quero Adquirir</a>
-                        <a href='#icones'>Saiba mais</a>
+                        <a className='botao-amarelo' href='#icones'>Quero Adquirir</a>
                     </div>
                 </div>
                 <div className='icon-scroll' />
