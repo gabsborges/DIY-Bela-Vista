@@ -1,0 +1,315 @@
+.plantas {
+
+}
+
+.plantas h1 {
+    text-align: center;
+    color: #e9e9e9;
+    letter-spacing: 48px;
+    font-size: 88px;
+    font-weight: 600;
+}
+
+.plantas h1::after {
+    content: "plantas";
+    text-align: center;
+    color: #ffa200;
+    position: absolute;
+    left: 39%;
+    margin-top: 32px;
+    font-size: 38px;
+    letter-spacing: 28px;
+}
+
+.plantas p {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    width: 80%;
+    padding-bottom: 80px;
+}
+
+.plantas-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url('../../../public/sessao-plantas.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 46px;
+}
+
+.plantas-box .img-redm {
+    width: 500px !important;
+    margin: 0 !important;
+    z-index: 1;
+}
+
+.plantas-box .img-redm1 {
+    width: 330px !important;
+    margin: 0 !important;
+    z-index: 1;
+}
+
+.plantas-box-texto-padrao {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 376px;
+    top: 50px;
+}
+
+.plantas-box-texto-padrao p {
+    color: #ffa200;
+    margin: 0 !important;
+    padding: 0 !important;
+    letter-spacing: 10px;
+    width: 320px !important;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.detalhePadrao {
+    z-index: 0;
+    width: 290px;
+    height: 10px;
+    background: #ffa200;
+    margin: 0 !important;
+}
+
+.plantas-box-wrapper {
+    text-align: left;
+    width: 500px;
+    margin-top: 50px;
+}
+
+
+.plantas-box-texto-home h1 {
+    font-size: 46px;
+    color: white;
+    letter-spacing: 12px;
+    font-weight: 400;   
+    text-align: left; 
+}
+
+.plantas-box-texto-home h1::after {
+    display: none;
+}
+
+.plantas-box-texto-dormitorios {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #ffa200 !important;
+    width: 400px !important;
+    font-weight: 400;
+    text-align: left !important;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.plantas-box-texto-paragrafo {
+    color: white;
+    font-weight: 400;
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.plantas-box-icones {
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.plantas-box-icones-separacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.plantas-box-icones-separacao img {
+    width: 35px !important;
+    margin: 0 !important;
+}
+
+.plantas-box-icones-separacao p {
+    margin: 0 !important;
+    padding: 0 0 0 0!important;
+    width: auto !important;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.plantas .carousel-inner {
+    height: 710px;
+}
+
+.prevNextIcon {
+    top: 190px;
+    position: absolute
+}
+
+@media (max-width: 1025px) {
+    .plantas h1 {
+        font-size: 62px;
+    }
+    .plantas h1::after {
+        font-size: 38px;
+        left: 33%;
+        margin-top: 14px;
+    }
+    .plantas-box {
+        background-size: cover;
+    }
+    .plantas-box-texto-home h1 {
+        font-size: 46px;
+    }
+    .plantas-box .img-redm {
+        width: 200px !important;
+        padding-bottom: 30px;
+    }
+    .plantas-box .img-redm1 {
+        width: 150px !important;
+        padding-bottom: 20px;
+    }
+    .plantas-box-texto-padrao {
+        right: 297px;
+    }
+    .plantas-box-texto-padrao p {
+        width: 275px !important;
+    }
+    .plantas-box-icones {
+        margin-top: 86px;
+    }
+    .plantas-box-texto {
+        margin-bottom: 40px !important;
+    }
+    .plantas .carousel-inner {
+        height: 432px;
+    }
+}
+
+
+@media (max-width: 769px) {
+    .plantas h1 {
+        margin-bottom: 20px;
+        font-size: 46px;
+    }
+    .plantas h1::after {
+        left: 32%;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .plantas p {
+        padding-bottom: 20px;
+    }
+    .plantas-box {
+        display: block;
+    }
+    .plantas .carousel-inner {
+        height: 864px;
+    }
+    .plantas-box-texto-padrao {
+        right: 203px;
+    }
+    .plantas-box-wrapper {
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+    .plantas-box-wrapper h1 {
+        font-size: 33px;
+        text-align: center;
+        margin: 30px 0 30px 0;
+    }
+    .plantas-box-icones {
+        margin: 0;
+    }
+    .edit-img1 {
+        top: 274px;
+    }
+    .edit-img2 {
+        top: 324px;
+    }
+    .edit-img3 {
+        top: 362px;
+    }
+    .plantas-box-icones-separacao {
+        padding: 0 0 20px 0;
+    }
+}
+
+@media (max-width: 555px) {
+    .plantas h1 {
+        font-size: 22px;
+    }
+    .plantas h1::after {
+        left: 25%;
+        margin-top: -1px;
+        font-size: 21px;
+    }
+    .edit-img1 {
+        top: 288px;
+        right: 150px;
+
+    }
+    .edit-img2 {
+        top: 343px;
+        right: 150px;
+
+    }
+    .edit-img3 {
+        top: 384px;
+        right: 150px;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .plantas-box-texto-paragrafo {
+        width: 85%;
+        margin: 0 auto !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .plantas h1 {
+        font-size: 22px;
+        letter-spacing: 20px;
+    }
+    .plantas h1::after {
+        left: 19%;
+    }
+    .edit-img1 {
+        top: 288px;
+        right: 69px;
+
+    }
+    .edit-img2 {
+        top: 343px;
+        right: 69px;
+
+    }
+    .edit-img3 {
+        top: 384px;
+        right: 69px;
+
+    }
+    .plantas-box-texto-home h1 {
+        font-size: 22px;
+        letter-spacing: 8px;
+        text-align: center;
+        margin-right: 40px;
+    }
+    .plantas-box-texto-padrao p {
+        width: 295px !important;
+        letter-spacing: 9px;
+    }
+    .plantas-box-texto-paragrafo {
+        width: 50%;
+        margin: 0 auto !important;
+    }
+}

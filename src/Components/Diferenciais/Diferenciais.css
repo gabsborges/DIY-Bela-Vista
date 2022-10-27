@@ -1,0 +1,164 @@
+.diferenciais {
+    margin: 20px 0;
+}
+
+.diferenciais h1 {
+    text-align: center;
+    color: #e9e9e9;
+    letter-spacing: 26px;
+    font-size: 88px;
+    font-weight: 600;
+}
+
+.diferenciais h1::after {
+    content: "diferenciais";
+    text-align: center;
+    color: #ffa200;
+    position: absolute;
+    left: 28%;
+    margin-top: 32px;
+    font-size: 38px;
+    letter-spacing: 28px;
+}
+
+.diferenciais-box {
+    display: flex;
+    margin: 80px 0;
+}
+
+.diferenciais-box img {
+    width: 45%;
+}
+
+.diferenciais-box-texto {
+    display: flex;
+}
+
+
+.diferenciais-box-texto ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.diferenciais-box-texto li {
+    line-height: 50px;
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+}
+
+.fa-circle {
+    font-size: 14px;
+    color: #ffa200;
+    margin-right: 20px;
+}
+
+
+@media (max-width: 1300px) {
+    .diferenciais-box {
+        margin: 0 auto;
+        display: block;
+        width: 80%;
+    }
+    .diferenciais-box img {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .diferenciais-box-texto {
+        margin-top: 50px;
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 1025px) {
+    .diferenciais h1 {
+        font-size: 62px;
+    }
+    .diferenciais h1::after {
+        font-size: 38px;
+        left: 25%;
+        margin-top: 18px;
+    }
+}
+
+@media (max-width: 769px) {
+    .diferenciais h1 {
+        margin-bottom: 20px;
+        font-size: 46px;
+    }
+    .diferenciais h1::after {
+        left: 18%;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .diferenciais-box {
+        width: 100%;
+    }
+    .diferenciais-box-texto {
+        margin-bottom: 20px;
+        justify-content: space-around;
+    }
+    .diferenciais-box-texto li {
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 655px) {
+    .diferenciais h1 {
+        font-size: 34px;
+    }
+    .diferenciais h1::after {
+        left: 15%;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 600px) {
+    .diferenciais-box-texto {
+        flex-direction: column;
+    }
+    .diferenciais-box-texto ul{
+        width: 85%;
+    }
+}
+
+@media (max-width: 555px) {
+    .diferenciais h1 {
+        font-size: 22px;
+    }
+    .diferenciais h1::after {
+        left: 9%;
+        font-size: 20px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .diferenciais h1 {
+        font-size: 18px;
+    }
+    .diferenciais h1::after {
+        left: 15%;
+        font-size: 18px;
+        letter-spacing: 20px;
+    }
+    .diferenciais-box-texto ul {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .diferenciais h1 {
+        font-size: 28px;
+        letter-spacing: 10px;
+    }
+    .diferenciais h1::after {
+        left: 15%;
+        font-size: 17px;
+        letter-spacing: 19px;
+        margin-top: 6px;
+    }
+}

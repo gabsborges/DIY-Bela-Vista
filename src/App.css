@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:"Montserrat", sans-serif ;
+}
+
+
+.main-section {
+  background-image: url('../public/home-desk-DIY.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.second-section {
+  background-image: url('../public/second-background.png');
+  background-size: 100%;
+  background-position: 0px 278px;
+  background-repeat: no-repeat;
+  background-color: #f4f4f4;
+}
+
+.galeria-section {
+  background-color: #f4f4f4;
+}
+
+.ficha-section {
+  background-image: url('../public/backgroundfichatec.png');
+  background-color: #f4f4f4;
+  background-position: 0px -125px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.footer-section {
+  background-image: url('../public/footer2.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+@media (max-width: 1230px) {
+  .main-section {
+    background-image: url('../public/home\ -\ mobile.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 1025px) {
+  .ficha-section {
+    background-position: 0px -36px;
+  }
+}

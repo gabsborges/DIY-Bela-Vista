@@ -1,0 +1,307 @@
+.mainSection {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.mainSection-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 50px 0;
+}
+
+.mainSection-boxTexto {
+    width: 40%;
+}
+
+.mainSection-boxTexto img {
+    width: 200px;
+}
+
+.mainSection-boxTexto p {
+    color: #ffa200;
+    margin: 12px 0;
+    font-size: 19px;
+}
+
+.mainSection-boxTexto h1 {
+    font-weight: 400;
+    color: #e9e9e9;
+    width: 500px;
+    font-size: 38px;
+}
+
+.mainSection-boxTexto h1 strong {
+    font-size: 64px;
+}
+
+.mainSection-boxTexto h2 {
+    color: #e9e9e9;
+    font-weight: 300;
+    line-height: 38px;
+    font-size: 28px;
+}
+
+.mainSection-boxTexto-botoes {
+    margin: 30px 0;
+}
+
+.mainSection-boxTexto-botoes a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: #e9e9e9;
+    font-weight: 600;
+}
+
+.mainSection-boxTexto-botoes .botao-amarelo {
+    padding: 8px 20px;
+    background-color: #ffa200;
+    color: #e9e9e9;
+    border-radius: 8px;
+}
+
+.llform001 {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border-radius: 25px;
+    width: 404px;
+    padding: 22px 40px !important;
+}
+
+.llform001 > div {
+    padding: 0px 0 !important;
+}
+
+.llform001 .inputs {
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid #e9e9e9 !important;
+    border-radius: 0px !important;
+    padding: 8px !important;
+    margin-top: 6px !important;
+}
+
+.llform001 .inputs::placeholder {
+    color: #e9e9e9;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.llform001 h1 {
+    color: #e9e9e9;
+}
+
+.llform001 p {
+    color: #e9e9e9;
+}
+
+
+.checkbox label{
+    color: #e9e9e9;
+}
+
+.botao-amarelo button {
+    padding: 8px 45px;
+    background-color: #ffa200;
+    color: #e9e9e9;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    margin-right: 30px;
+    color: #e9e9e9;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.icon-scroll{
+    width: 11px;
+    height: 12px;
+    margin-left: -20px;
+    top: 47%;
+    margin-top: 380px;
+    box-shadow: inset 0 0 0 1px #fff;
+    border-radius: 10px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+    }
+  100% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+}
+
+.mainSection-porQue {
+    width: 50%;
+    color: #e9e9e9;
+    padding-bottom: 20px;
+}
+
+.mainSection-porQue h1 {
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.mainSection-porQue p {
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+@media (max-width:1230px) {
+    .mainSection-box {
+        display: block;
+    }
+    .mainSection-boxTexto {
+        align-items: center;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .icon-scroll {
+        margin: 82px 0 110px 592px;
+    }
+    .llform001 {
+        align-items: center;
+        margin: 0 auto;
+    }
+    .mainSection-porQue {
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1025px) {
+    .icon-scroll {
+        display: none;
+    }
+    .mainSection-boxTexto {
+        padding-bottom: 40px;
+    }
+    .mainSection-porQue {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 769px) {
+    .mainSection-boxTexto {
+        width: 70%;
+    }
+    .mainSection-porQue {
+        width: 70%;
+    }
+}
+
+@media (max-width: 726px) {
+    .mainSection-boxTexto {
+        width: 85%;
+    }
+    .mainSection-porQue {
+        width: 85%;
+    }
+}
+
+@media (max-width: 600px) {
+    .mainSection-boxTexto h1 {
+        width: auto;
+        font-size: 2rem;
+    }
+    .mainSection-boxTexto h1 strong {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .mainSection-boxTexto img {
+        width: 9rem;
+    }
+    
+    .mainSection-boxTexto p {
+        font-size: 1rem;
+    }
+    
+    .mainSection-boxTexto h1 {
+        font-size: 2rem;
+    }
+    
+    .mainSection-boxTexto h1 strong {
+        font-size: 2.5rem;
+    }
+    
+    .mainSection-boxTexto h2 {
+        font-size: 1.65rem;
+    }
+    
+    .llform001 {
+        width: 95%;
+    }
+    .mainSection-porQue {
+        width: 95%;
+    }
+    .radio-list {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    .mainSection-boxTexto img {
+        width: 7rem;
+    }
+    
+    .mainSection-boxTexto p {
+        font-size: 0.75rem;
+    }
+    
+    .mainSection-boxTexto h1 {
+        font-size: 1rem;
+    }
+    
+    .mainSection-boxTexto h1 strong {
+        font-size: 2.5rem;
+    }
+    
+    .mainSection-boxTexto h2 {
+        font-size: 1.10rem;
+    }
+    
+    .llform001 {
+        width: 95%;
+    }
+    .mainSection-boxTexto-botoes a {
+        margin-right: 15px;
+    }
+    .mainSection-porQue {
+        width: 95%;
+    }
+    .mainSection-boxTexto-botoes .botao-amarelo {
+        padding: 8px 12px;
+    }
+}
+
+.checkbox input {
+    -webkit-appearance: auto !important;
+}
+
+.empreendimento label {
+    color: white !important;
+    font-size: 18px !important;
+    margin-left: 0 !important;
+}
+
+.radio-list {
+    display: flex;
+}
+
+.radio-list label {
+    color: white;
+    padding-right: 45px;
+}
+
+.mainSection-formsArea p strong {
+    font-size: 24px;
+}

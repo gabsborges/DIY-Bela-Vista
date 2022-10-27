@@ -1,0 +1,88 @@
+.fichaTecnica {
+    margin: 0 auto;
+    width: 80%;
+    padding: 40px 0 80px 0;
+}
+
+.fichaTecnica-box {
+    background-color:rgba(20, 43, 80, 0.95);
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.fichaTecnica-box h1 {
+    text-align: center;
+    color: #ffa200;
+    font-weight: 300;
+    padding: 10px 0 0px 0;
+}
+
+.fichaTecnica-area {
+    text-align: center;
+}
+
+.fichaTecnica-area-endereco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fichaTecnica-area-itens {
+    padding: 0 20px;
+    width: 50%;
+    margin: 25px;
+
+}
+
+.fichaTecnica-area-itens ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0 5px 0;
+    font-weight: 300;
+    align-items: center;
+}
+
+.fichaTecnica-area-itens li {
+    font-size: 14px;
+    width: 200px;
+    text-align: left;
+}
+
+.enderecos-lista {
+    border-bottom: 1px solid #03488E;
+    color: white;
+}
+
+.sonho-section {
+    background-color: #f4f4f4;
+}
+
+.enderecos-lista ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.enderecos-lista ul li {
+    width: 245px;
+    text-align: center;
+}
+
+@media (max-width: 769px) {
+    .fichaTecnica-area-itens {
+        margin: 0px;
+    }
+    .fichaTecnica {
+        width: 100%;
+    }
+    .fichaTecnica-area-itens {
+        width: 100%;
+    }
+}
+
+@media (max-width: 950px) {
+    .fichaTecnica-area-endereco {
+        flex-direction: column;
+    }
+}
