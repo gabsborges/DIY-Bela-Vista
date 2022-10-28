@@ -78,6 +78,7 @@
     border-radius: 0px !important;
     padding: 8px !important;
     margin-top: 6px !important;
+    color: #e9e9e9 !important;
 }
 
 .llform001 .inputs::placeholder {

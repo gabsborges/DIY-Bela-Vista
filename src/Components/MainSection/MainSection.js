@@ -53,11 +53,11 @@ function MainSection() {
                             <div className="field-error" id="llerror69862"></div>
                         </div>
                         <div>
-                            <input className='inputs' type="email" id="llfield69863" name="llfield69863" placeholder="Tel.:" data-required="true" />
+                            <input className='inputs' type="email" id="llfield69863" name="llfield69863" placeholder="E-mail:" data-required="true" />
                             <div className="field-error" id="llerror69863"></div>
                         </div>
                         <div>
-                            <input className='inputs' type="tel" id="llfield69864" name="llfield69864" placeholder="E-mail:" data-required="true" />
+                            <input className='inputs' type="tel" id="llfield69864" name="llfield69864" placeholder="Tel.:" data-required="true" />
                             <div className="field-error" id="llerror69864"></div>
                         </div>
                         <div>
@@ -74,7 +74,7 @@ function MainSection() {
                             <button type="submit">Enviar!</button>
                         </div>
                         <div className="loading-box">
-                            <img src="//paginas.rocks/content/images/spinner.gif" alt="..." />
+                            <img src="//paginas.rocks/content/images/.gif" alt="..." />
                             <div>loading...</div>
                         </div>
                         <div className="error-box">
