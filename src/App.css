@@ -42,6 +42,11 @@
   height: 100vh;
 }
 
+.obrigado {
+  background-image: url('../public/obrigado_background.png');
+  background-size: cover;
+}
+
 @media (max-width: 1230px) {
   .main-section {
     background-image: url('../public/home\ -\ mobile.png');
@@ -54,4 +59,12 @@
   .ficha-section {
     background-position: 0px -36px;
   }
+}
+
+@media (max-width: 1100px) {
+  .obrigado {
+    background-image: url('../public/obrigado_background_mobile.png');
+
+  }
+  
 }
