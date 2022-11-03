@@ -55,3 +55,21 @@
     background-position: 0px -36px;
   }
 }
+
+@media (max-width: 600px) {
+  .footer-section {
+    height: 110vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-section {
+    height: 135vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-section {
+    height: 145vh;
+  }
+}

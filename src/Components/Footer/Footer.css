@@ -63,9 +63,17 @@
     color: #ffa200;
 }
 
+@media (max-width: 770px) {
+    .footer-area {
+        display: block;
+        padding-top: 80px;
+    }
+}
+
 @media (max-width: 600px) {
     .footer-text-area {
         flex-direction: column;
+
     }
 
 }
