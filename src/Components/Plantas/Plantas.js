@@ -52,7 +52,7 @@ function Plantas() {
                 </CarouselItem>
                 <CarouselItem>
                     <div className='plantas-box'>
-                        <img className='img-redm1' src='./26m2.png' />
+                        <img className='img-redm1' src='./26m2.png' alt='' />
                         <div className='plantas-box-texto'>
                             <div className='plantas-box-texto-padrao edit-img3'>
                                 <div className='detalhePadrao'></div>

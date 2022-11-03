@@ -7,10 +7,10 @@ function EncontreSeuSonho() {
     return (
         <div className='encontreSeuSonho'>
             <h1 id='encontreSeuSonho' >SONHO</h1>
-            <img src='./lupa.png' />
+            <img alt='' src='./lupa.png' />
             <div className="cards">
                 <div className='card-inner'>
-                    <img src='./diy-belavista.png' />
+                    <img alt='' src='./diy-belavista.png' />
                     <div className='card-inner-text'>
                         <div className='card-inner-box'>
                             <div className='card-box-texto'>
@@ -24,7 +24,7 @@ function EncontreSeuSonho() {
                     </div>
                 </div>
                 <div className='card-inner disable'>
-                    <img src='./ahead-aclimacao.png' />
+                    <img alt='' src='./ahead-aclimacao.png' />
                     <div className='card-inner-text'>
                         <div className='card-inner-box'>
                             <div className='card-box-texto'>
@@ -38,7 +38,7 @@ function EncontreSeuSonho() {
                     </div>
                 </div>
                 <div className='card-inner disable'>
-                    <img src='./alive-vila-mariana.png' />
+                    <img alt='' src='./alive-vila-mariana.png' />
                     <div className='card-inner-text'>
                         <div className='card-inner-box'>
                             <div className='card-box-texto'>
@@ -52,7 +52,7 @@ function EncontreSeuSonho() {
                     </div>
                 </div>
                 <div className='card-inner disable'>
-                    <img src='./alto-da-boa-vista.png' />
+                    <img alt='' src='./alto-da-boa-vista.png' />
                     <div className='card-inner-text'>
                         <div className='card-inner-box'>
                             <div className='card-box-texto'>

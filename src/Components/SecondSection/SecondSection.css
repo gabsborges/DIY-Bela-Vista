@@ -8,10 +8,6 @@
     text-align: center;
 }
 
-.wrapper-itens img{
-    width: 145px;
-}
-
 .secondSection .carousel-inner {
     display: flex;
     justify-content: space-between;
@@ -36,6 +32,7 @@
     justify-content: space-around;
     display: flex;
     flex-direction: row;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -93,52 +90,13 @@ align-items: center;
     font-weight: 500;
 }
 
-@media (max-width: 1190px) {
-    .wrapper-itens img{
-        width: 125px;
-    }
-    .wrapper-itens p{
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 1055px) {
-    .wrapper-itens img{
-        width: 106px;
-    }
-    .wrapper-itens p{
-        width: 150px;
-        font-size: 12px;
-    }
-}
-
 @media (max-width: 1025px) {
     .wrapper-itens img{
-        width: 94px;
+        width: 114px;
     }
     .wrapper-itens p{
+        width: 150px;
         font-size: 12px;
-        width: 150px;
-    }
-}
-
-@media (max-width: 1005px) {
-    .wrapper-itens img{
-        width: 84px;
-    }
-    .wrapper-itens p{
-        font-size: 9px;
-        width: 150px;
-    }
-}
-
-@media (max-width: 765px) {
-    .wrapper-itens img{
-        width: 85px;
-    }
-    .wrapper-itens p{
-        font-size: 9px;
-        width: 110px;
     }
 }
 
@@ -151,24 +109,43 @@ align-items: center;
     }
 }
 
-@media (max-width: 655px) {
+@media (max-width: 1025px) {
     .wrapper-itens img{
-        width: 66px;
+        width: 86px;
     }
     .wrapper-itens p{
+        width: 110px;
         font-size: 9px;
     }
 }
 
-@media (max-width: 580px) {
-    .cards-icones-itens {
-        flex-direction: column;
-    }
-    .wrapper-itens img{
-        width: 200px;
-    }
-    .wrapper-itens p{
-        font-size: 14px;
-        width: 382px;
-    }
+
+.rec-arrow:hover, .rec-arrow:focus {
+    box-shadow: 0 0 1px 3px rgb(255 162 0 / 50%) !important;
+}
+
+.rec-arrow-left:hover:enabled, .rec-arrow-left:focus:enabled {
+    background-color: rgba(255, 162, 0, 1) !important;
+}
+
+.rec-arrow:hover:enabled, .rec-arrow:focus:enabled {
+    background-color: rgba(255, 162, 0, 1) !important;
+}
+
+.rec-arrow-left, .rec-arrow-rigth {
+    background-color: rgba(255, 162, 0, 0.1) !important;  
+}
+  .rec-dot_active {
+    background-color: rgba(255, 162, 0, 1) !important;
+}
+.rec-dot:focus, .rec-dot:hover {
+    box-shadow: 0 0 1px 3px rgba(255, 162, 0, 1) !important;
+}
+.rec-dot_active:focus, .rec-dot_active:hover {
+    background-color: rgba(255, 162, 0, 1) !important;
+    box-shadow: 0 0 1px 3px rgba(255, 162, 0, 1) !important;
+}
+
+.rec-arrow:disabled, .rec-arrow {
+    background-color: rgba(255, 162, 0, 0.1) !important;  
 }

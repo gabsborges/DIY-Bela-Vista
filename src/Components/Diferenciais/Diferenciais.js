@@ -5,7 +5,7 @@ function Diferenciais() {
         <div className='diferenciais'>
             <h1 id='diferenciais' >DIFERENCIAIS</h1>
             <div className='diferenciais-box'>
-                <img src='./omo-imagem.png'/>
+                <img src='./omo-imagem.png' alt=''/>
                 <div className='diferenciais-box-texto'>
                     <ul>
                         <li><i className="fa-sharp fa-solid fa-circle"></i>Wi-Fi gratuito nas áreas comuns</li>

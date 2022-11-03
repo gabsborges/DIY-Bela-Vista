@@ -1,13 +1,20 @@
 import React from 'react';
 import './SecondSection.css'
+import Carousel from 'react-elastic-carousel';
 
 
 function SecondSection() {
+  
   return (
     <div className='secondSection'>
         <div id='icones' className='cards-icones-box'>
           <div className='cards-icones-itens'>
-              <div className='wrapper-itens'>
+            <Carousel 
+            enableAutoPlay
+            autoPlaySpeed={4500}
+            itemsToScroll={2}
+            itemsToShow={3}>
+            <div className='wrapper-itens'>
                 <img src="./icone-plantas.png" alt="icones sobre plantas"
                 />
                 <p>Plantas modernas de 26m² a 52m²</p>
@@ -32,6 +39,7 @@ function SecondSection() {
               />
               <p>bares e restaurantes na localidade</p>
             </div>
+            </Carousel>
             </div>
         </div>
 

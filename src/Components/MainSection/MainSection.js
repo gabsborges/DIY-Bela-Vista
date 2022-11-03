@@ -14,12 +14,12 @@ function MainSection() {
         <div className='mainSection'>
             <div className='mainSection-box'>
                 <div className='mainSection-boxTexto'>
-                    <img src='./UNITY_LOGO.png' alt='Logo da Unity' />
+                    <img src='./UNITY_LOGO.png' alt='Imagem da Logo'/>
                     <p>Breve Lançamento</p>
                     <h1>Invista no melhor de <br /><strong>São Paulo.</strong></h1>
                     <h2><strong>Ideal para você</strong> que quer praticidade, sofisticação e lazer no dia a dia!</h2>
                     <div className='mainSection-boxTexto-botoes'>
-                        <a className='botao-amarelo' href='#icones'>Quero Adquirir</a>
+                        <a className='botao-amarelo' href='#icones'>Saiba mais</a>
                     </div>
                 </div>
                 <div className='icon-scroll' />
@@ -53,11 +53,11 @@ function MainSection() {
                             <div className="field-error" id="llerror69862"></div>
                         </div>
                         <div>
-                            <input className='inputs' type="email" id="llfield69863" name="llfield69863" placeholder="E-mail:" data-required="true" />
+                            <input className='inputs' type="email" id="llfield69863" name="llfield69863" placeholder="Tel.:" data-required="true" />
                             <div className="field-error" id="llerror69863"></div>
                         </div>
                         <div>
-                            <input className='inputs' type="tel" id="llfield69864" name="llfield69864" placeholder="Tel.:" data-required="true" />
+                            <input className='inputs' type="tel" id="llfield69864" name="llfield69864" placeholder="E-mail:" data-required="true" />
                             <div className="field-error" id="llerror69864"></div>
                         </div>
                         <div>
@@ -74,15 +74,15 @@ function MainSection() {
                             <button type="submit">Enviar!</button>
                         </div>
                         <div className="loading-box">
-                            <img src="//paginas.rocks/content/images/.gif" alt="..." />
+                            <img src="//paginas.rocks/content/images/spinner.gif" alt='' />
                             <div>loading...</div>
                         </div>
                         <div className="error-box">
-                            <img src="//paginas.rocks/content/images/error-icon.png" alt="..." />
+                            <img src="//paginas.rocks/content/images/error-icon.png" alt=''/>
                             <div></div>
                             <button type="button" className="btn" id="btn-error">Ok</button>
                         </div>
-                        <img src="https://llimages.com/redirect/redirect.aspx?A=V&f=54811&m=667544"  alt="..." style={{display: 'none'}} />
+                        <img src="https://llimages.com/redirect/redirect.aspx?A=V&f=54811&m=667544" alt='' style={{display: 'none'}} />
                     </form>
                 </div>
             </div>

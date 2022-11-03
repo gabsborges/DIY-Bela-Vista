@@ -7,7 +7,7 @@ function Header() {
     const [style, setStyle] = useState("drop-down");
 
     const changeStyle = () => {
-        if (style == "drop-down") {
+        if (style === "drop-down") {
             setStyle("drop-down--active");
         } else {
             setStyle("drop-down");
@@ -45,7 +45,7 @@ function Header() {
                         </div>
                     </div>
             <div className='header-area-contato'>
-                <a href='https://api.whatsapp.com/send?phone=551131512366'><img src="./iconezinho-pessoa.png" />Contato</a>
+                <a href='https://api.whatsapp.com/send?phone=5511951867047'><img src="./iconezinho-pessoa.png" alt=''/>Contato</a>
             </div>
 
         </div>
@@ -54,24 +54,3 @@ function Header() {
 }
 
 export default Header
-
-
-
-{/* <Navbar className='header-area' bg="transparent" expand="lg">
-<Container className='header' fluid>
-<Navbar.Brand id='topo' href="#"><img src='./icone diy.png'/></Navbar.Brand>
-<Navbar.Toggle aria-controls="navbarScroll" />
-<Navbar.Collapse className='header-area-menu' id="navbarScroll">
-    <Nav 
-    className="header-menu-color ms-auto my-2 my-lg-0 me-5"
-    style={{ maxHeight: '100px'}}
-    navbarScroll
-    >
-    <Nav.Link href="#sobre">Sobre</Nav.Link>
-    <Nav.Link href="#diferenciais">Diferenciais</Nav.Link>
-    <Nav.Link href="#servicos">Serviços</Nav.Link>
-    </Nav>
-</Navbar.Collapse>
-<Nav.Link className='header-area-contato' href='https://api.whatsapp.com/send?phone=551131512366'><img src="./iconezinho-pessoa.png" />Contato</Nav.Link>
-</Container>
-</Navbar> */}

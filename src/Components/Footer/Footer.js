@@ -6,7 +6,7 @@ function Footer() {
             <div className='footer-area'>
                 <div className='footer-text-area'>
                     <div className='footer-dwIncorp'>
-                        <img src='./UNITY_LOGO.png' />
+                        <img src='./UNITY_LOGO.png' alt=''/>
                         <p>Imagens preliminares sujeitas a alteração. As unidades autônomas e áreas comuns do
                             empreendimento serão entregues conforme Projeto Legal, Memorial de Incorporação e
 
@@ -40,9 +40,9 @@ function Footer() {
                     </div>
                 </div>
                 <div className='footer-copy'>
-                    <a href='#'>Politica De Privacidade</a>
-                    <a href='#'>2022 Copyright - Todos os direitos reservados.</a>
-                    <a href='#'>Fale Conosco</a>
+                    <a href=''>Politica De Privacidade</a>
+                    <a href=''>2022 Copyright - Todos os direitos reservados.</a>
+                    <a href=''>Fale Conosco</a>
                 </div>
             </div>
         </div>
