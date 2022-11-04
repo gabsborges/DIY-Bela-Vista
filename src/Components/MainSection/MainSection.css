@@ -71,6 +71,10 @@
     padding: 0px 0 !important;
 }
 
+.llform001 > div > input{
+    color: white !important;
+}
+
 .llform001 .inputs {
     background-color: transparent !important;
     border: none !important;

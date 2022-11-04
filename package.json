@@ -2,6 +2,7 @@
   "name": "diy",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -16,6 +17,7 @@
     "react-modal": "^3.16.1",
     "react-motion": "^0.5.2",
     "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"

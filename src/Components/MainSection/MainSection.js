@@ -24,7 +24,7 @@ function MainSection() {
                 </div>
                 <div className='icon-scroll' />
                 <div className='mainSection-formsArea'>
-                    <form id="llCaptureForm" className="llform001" action="//paginas.rocks/capture" method="post">
+                    <form id="llCaptureForm" className="llform001" action="https://paginas.rocks/capture" method="post">
                         <input type="hidden" id="mid" name="mid" value="667544" />
                         <input type="hidden" id="fid" name="fid" value="54811" />
                         <input type="hidden" id="formType" name="formType" value="dynamic" />
@@ -53,11 +53,11 @@ function MainSection() {
                             <div className="field-error" id="llerror69862"></div>
                         </div>
                         <div>
-                            <input className='inputs' type="email" id="llfield69863" name="llfield69863" placeholder="Tel.:" data-required="true" />
+                            <input className='inputs' type="email" id="llfield69863" name="llfield69863" placeholder="E-mail:" data-required="true" />
                             <div className="field-error" id="llerror69863"></div>
                         </div>
                         <div>
-                            <input className='inputs' type="tel" id="llfield69864" name="llfield69864" placeholder="E-mail:" data-required="true" />
+                            <input className='inputs' type="tel" id="llfield69864" name="llfield69864" placeholder="Tel.:" data-required="true" />
                             <div className="field-error" id="llerror69864"></div>
                         </div>
                         <div>

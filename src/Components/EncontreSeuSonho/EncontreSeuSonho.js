@@ -37,7 +37,7 @@ function EncontreSeuSonho() {
                         </div>
                     </div>
                 </div>
-                <div className='card-inner disable'>
+                <div className='card-inner'>
                     <img alt='' src='./alive-vila-mariana.png' />
                     <div className='card-inner-text'>
                         <div className='card-inner-box'>
