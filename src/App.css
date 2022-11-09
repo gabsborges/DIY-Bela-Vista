@@ -43,7 +43,8 @@
 }
 
 .obrigado {
-  background-image: url('../public/obrigado_background.png')
+  background-image: url('../public/obrigado_background.png');
+  height: 150vh;
 }
 
 @media (max-width: 1230px) {
