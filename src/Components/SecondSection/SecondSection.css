@@ -65,6 +65,7 @@ align-items: center;
 }
 
 .secondSection-text-box p {
+    color: black;
     width: 285px;
     margin: 20px 30px;
     font-size: 24px;
@@ -85,9 +86,11 @@ align-items: center;
 }
 
 .wrapper-itens p{
-    width: 200px;
-    margin-top: 25px;
+    text-align: center;
+    color: black;
+    margin: 25px 0 25px 0;
     font-weight: 500;
+    padding: 0;
 }
 
 @media (max-width: 1025px) {

@@ -1,4 +1,5 @@
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -40,9 +41,9 @@ function Footer() {
                     </div>
                 </div>
                 <div className='footer-copy'>
-                    <a href=''>Politica De Privacidade</a>
-                    <a href=''>2022 Copyright - Todos os direitos reservados.</a>
-                    <a href=''>Fale Conosco</a>
+                    <Link to='/politica-de-privacidade'>Política De Privacidade</Link>
+                    <p>Desenvolvido por Rino Box© 2022 - Todos os direitos reservados</p>
+                    <a href='https://api.whatsapp.com/send?phone=551132571717' target="_blank" rel="noreferrer">Fale Conosco</a>
                 </div>
             </div>
         </div>

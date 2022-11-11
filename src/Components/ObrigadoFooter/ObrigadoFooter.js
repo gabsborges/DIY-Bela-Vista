@@ -4,8 +4,8 @@ function ObrigadoFooter() {
     return (
         <div className='obrigadoFooter'>
             <div className='obrigadoFooter-footer'>
-                <img src='./UNITY_LOGO.png'/>
-                <p>© copyrigth 2022 - DIY - Bela Vista. Todos os direitos reservados.</p>
+                <img src='./UNITY_LOGO.png' alt='Logo da unity'/>
+                <p>Desenvolvido por Rino Box© 2022 - Todos os direitos reservados.</p>
                 <div className='obrigadoFooter-icones'>
                     <a href='https://www.facebook.com/unityengenhariabr'><i class="fa-brands fa-facebook"></i></a>
                     <a href='https://api.whatsapp.com/send?phone=551132571717'><i class="fa-brands fa-whatsapp"></i></a>

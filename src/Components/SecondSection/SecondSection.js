@@ -10,34 +10,35 @@ function SecondSection() {
         <div id='icones' className='cards-icones-box'>
           <div className='cards-icones-itens'>
             <Carousel 
-            enableAutoPlay
+            enableAutoPlay={true}
+            isRTL={true}
             autoPlaySpeed={4500}
             itemsToScroll={2}
             itemsToShow={3}>
             <div className='wrapper-itens'>
                 <img src="./icone-plantas.png" alt="icones sobre plantas"
                 />
-                <p>Plantas modernas de 26m² a 52m²</p>
+                <p>Plantas modernas de <br />26m² a 52m²</p>
               </div>
               <div className='wrapper-itens'>
                 <img src="./icone-hospitais.png" alt="icones sobre hospitais"
                 />
-                <p>Maior concentração de hospitais privados da cidade de São Paulo</p>
+                <p>Maior concentração de <br />hospitais privados da <br />cidade de São Paulo</p>
               </div>
               <div className='wrapper-itens'>
                 <img src="./icone-trabalhadores.png" alt="icones sobre trabalhadores"
                 />
-                <p>+ de 112 mil trabalhadores formais na região</p>
+                <p>+ de 112 mil trabalhadores<br /> formais na região</p>
               </div>
               <div className='wrapper-itens'>
               <img src="./icones-metro.png" alt="icones sobre metro"
               />
-              <p>mobilidade e fácil acesso a 5 linhas de metro</p>
+              <p>mobilidade e fácil acesso<br /> a 5 linhas de metro</p>
             </div>
             <div className='wrapper-itens'>
               <img src="./icones-bares.png" alt="icones sobre bares"
               />
-              <p>bares e restaurantes na localidade</p>
+              <p>bares e restaurantes na<br /> localidade</p>
             </div>
             </Carousel>
             </div>
