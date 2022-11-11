@@ -112,6 +112,7 @@
 
 .modal-body {
     height: 80vh;
+    padding: 10px 0 0 0;
 }
 
 .modal-body img{
