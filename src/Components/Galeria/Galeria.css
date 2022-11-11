@@ -96,6 +96,29 @@
     z-index: 5;
 }
 
+.modal-content {
+    height: 96vh;
+    width: 97vw !important;
+}
+
+.modal-dialog {
+    margin: 10px !important;
+}
+
+.modal-header {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+}
+
+.modal-body {
+    height: 80vh;
+}
+
+.modal-body img{
+    width: 100%;
+    height: 100%;
+}
+
 @media (max-width: 1025px) {
     .galeria h1 {
         font-size: 62px;
