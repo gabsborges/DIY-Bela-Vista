@@ -55,7 +55,7 @@ function Galeria() {
 
                             <img alt="" className='inner-correcao pegarImagem' onClick={handleShow} src='./UNIT-BELA-VISTA_BIKE_SHARE.png' />
                             <div className='icone-lupa'>
-                                <a href='./UNIT-BELA-VISTA_BIKE_SHARE.png' target="_blank"><img alt="" className='lupaIcone' src="./lupa.png" /></a>
+                            <img alt="" className='lupaIcone' src="./lupa.png" />
                                 <Modal show={show} onHide={handleClose}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
