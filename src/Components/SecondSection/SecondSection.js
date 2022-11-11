@@ -14,6 +14,8 @@ function SecondSection() {
         <div id='icones' className='cards-icones-box'>
           <div className='cards-icones-itens'>
             <Carousel 
+            enableMouseSwipe={false}
+            enableSwipe={false}
             ref={carouselRef}
             pagination={true}
             showArrows={false}
