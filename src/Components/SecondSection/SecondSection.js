@@ -31,6 +31,9 @@ function SecondSection() {
             itemsToScroll={2}
             itemsToShow={3}>
             <div className='wrapper-itens'>
+                <div className='absolute'>
+                
+                </div>
                 <img src="./icone-plantas.png" alt="icones sobre plantas"
                 />
                 <p>Plantas modernas de <br />26m² a 52m²</p>
