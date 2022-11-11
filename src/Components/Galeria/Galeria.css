@@ -99,6 +99,8 @@
 .modal-content {
     height: 96vh;
     width: 97vw !important;
+    background-color: transparent !important;
+    border: none !important;
 }
 
 .modal-dialog {
@@ -111,13 +113,17 @@
 }
 
 .modal-body {
-    height: 80vh;
+
     padding: 10px 0 0 0 !important;
 }
 
-.modal-body img{
+.modal-body {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
+    align-items: center;
+    text-align: center;
 }
 
 @media (max-width: 1025px) {
