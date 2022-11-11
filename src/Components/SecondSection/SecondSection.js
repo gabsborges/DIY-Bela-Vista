@@ -1,18 +1,31 @@
 import React from 'react';
 import './SecondSection.css'
 import Carousel from 'react-elastic-carousel';
+import { useRef } from 'react';
 
 
 function SecondSection() {
-  
+
+  const carouselRef = useRef(null);
+    let resetTimeout;
+
   return (
     <div className='secondSection'>
         <div id='icones' className='cards-icones-box'>
           <div className='cards-icones-itens'>
             <Carousel 
+            ref={carouselRef}
+            pagination={true}
+            showArrows={false}
+            autoPlaySpeed={4000}
+            isRTL={false}
+            onNextEnd={({ index }) => {
+                clearTimeout(resetTimeout);
+                resetTimeout = setTimeout(() => {
+                    carouselRef?.current?.goTo(0);
+                }, 4500); // same time
+            }}
             enableAutoPlay={true}
-            isRTL={true}
-            autoPlaySpeed={4500}
             itemsToScroll={2}
             itemsToShow={3}>
             <div className='wrapper-itens'>
@@ -33,12 +46,12 @@ function SecondSection() {
               <div className='wrapper-itens'>
               <img src="./icones-metro.png" alt="icones sobre metro"
               />
-              <p>mobilidade e fácil acesso<br /> a 5 linhas de metro</p>
+              <p>Mobilidade e fácil acesso<br /> a 5 linhas de metro</p>
             </div>
             <div className='wrapper-itens'>
               <img src="./icones-bares.png" alt="icones sobre bares"
               />
-              <p>bares e restaurantes na<br /> localidade</p>
+              <p>Bares e restaurantes na<br /> localidade</p>
             </div>
             </Carousel>
             </div>

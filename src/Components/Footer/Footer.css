@@ -62,12 +62,19 @@
     margin-right: 40px;
 }
 
-.footer-copy p {
-    margin: 10px 0;
-}
 
 .footer-copy a:hover {
     color: #ffa200;
+}
+
+@media (max-width: 1080px) {
+    .footer-copy {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-copy p {
+        margin: 10px 0;
+    }
 }
 
 @media (max-width: 770px) {

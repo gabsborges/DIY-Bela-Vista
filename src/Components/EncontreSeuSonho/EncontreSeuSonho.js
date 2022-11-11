@@ -15,7 +15,7 @@ function EncontreSeuSonho() {
                         <div className='card-inner-box'>
                             <div className='card-box-texto'>
                                 <h1>DIY BELA VISTA</h1>
-                                <p>DW INCORP</p>
+                                <p>Unity Engenharia</p>
                             </div>
                             <div className='card-box-icone'>
                                 <i id='bookmark' className="fa-regular fa-bookmark"></i>

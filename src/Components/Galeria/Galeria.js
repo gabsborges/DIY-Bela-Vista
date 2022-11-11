@@ -59,7 +59,7 @@ function Galeria() {
                                 <Modal show={show} onHide={handleClose}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./UNIT-BELA-VISTA_BIKE_SHARE.png' /></Modal.Body>
+                                    <Modal.Body><img alt="" src='./bike-share-carousel.png' /></Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
@@ -77,7 +77,7 @@ function Galeria() {
                                 <Modal show={show2} onHide={handleClose2}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./UNIT-BELA-VISTA_CHURRAS_2 TIRO.jpg' /></Modal.Body>
+                                    <Modal.Body><img alt="" src='./churrasqueira-carousel.png' /></Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
@@ -95,7 +95,7 @@ function Galeria() {
                                 <Modal show={show3} onHide={handleClose3}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./UNIT-BELA-VISTA_COWORK.png' /></Modal.Body>
+                                    <Modal.Body><img alt="" src='./coworking-carousel.png' /></Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
@@ -113,7 +113,7 @@ function Galeria() {
                                 <Modal show={show4} onHide={handleClose4}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./UNIT-BELA-VISTA_LAVANDERIA.png' /></Modal.Body>
+                                    <Modal.Body><img alt="" src='./lavanderia-carousel.png' /></Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
@@ -131,7 +131,7 @@ function Galeria() {
                                 <Modal show={show5} onHide={handleClose5}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./UNIT-BELA-VISTA_LOBBY.png' /></Modal.Body>
+                                    <Modal.Body><img alt="" src='./vista-lobby-carousel.png' /></Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
@@ -149,7 +149,7 @@ function Galeria() {
                                 <Modal show={show6} onHide={handleClose6}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./UNIT-BELA-VISTA_PeT_2 TIRO.jpg' /></Modal.Body>
+                                    <Modal.Body><img alt="" src='./pet-carousel.png' /></Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
@@ -167,7 +167,7 @@ function Galeria() {
                                 <Modal show={show7} onHide={handleClose7}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./UNIT-BELA-VISTA_PISCINA_1 TIRO.jpg' /></Modal.Body>
+                                    <Modal.Body><img alt="" src='./piscina-carousel.png' /></Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
