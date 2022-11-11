@@ -4,7 +4,7 @@ function FichaTecnica() {
     return (
         <div className="fichaTecnica">
             <div className="fichaTecnica-box">
-                <h1>Ficha Tecnica</h1>
+                <h1>Ficha Técnica</h1>
                 <div className="fichaTecnica-area">
                     <div className="fichaTecnica-area-endereco">
                         <div className="fichaTecnica-area-itens">
