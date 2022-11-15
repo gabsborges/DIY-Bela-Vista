@@ -130,10 +130,16 @@
     height: 100%;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon  {
-    background-color: #ffa200;
-    border-radius: 25px;
-    padding-left: 35px;
+.carousel-control-prev-icon {
+    background-image: url('../../../public/prev-icon.png') !important;
+    width: 16px !important;
+    height: 35px !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url('../../../public/next-icon.png') !important;
+    width: 16px !important;
+    height: 35px !important;
 }
 
 @media (max-width: 1025px) {
