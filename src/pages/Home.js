@@ -9,12 +9,14 @@ import Maps from '../Components/Maps/Maps'
 import Plantas from '../Components/Plantas/Plantas'
 import SecondSection from '../Components/SecondSection/SecondSection'
 import '../App.css'
+import ScrollToTop from '../Components/ScrollToTop/ScrollToTop'
 
 
 function Home() {
     return (
         <div className='home'>
             <div className='main-section'>
+            <ScrollToTop />
             <Header/>
             <MainSection/>
             </div>
