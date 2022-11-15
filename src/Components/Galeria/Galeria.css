@@ -130,6 +130,12 @@
     height: 100%;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon  {
+    background-color: #ffa200;
+    border-radius: 25px;
+    padding-left: 35px;
+}
+
 @media (max-width: 1025px) {
     .galeria h1 {
         font-size: 62px;
