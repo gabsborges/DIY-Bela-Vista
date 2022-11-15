@@ -6,7 +6,7 @@ function ObrigadoMainSection() {
             <div className='obrigadoMainSection-box'>
                 <div className='obrigadoMainSection-box-texto'>
                     <h1>Obrigado!</h1>
-                    <p>Agradecemos o seu interesse em conhecer um pouco mais sobre o DIY Bela Vista.<br/>Em breve, você receberá um -email de confirmação e iremos entrar em contato!</p>
+                    <p>Agradecemos o seu interesse em conhecer um pouco mais sobre o DIY Bela Vista.<br/>Em breve, você receberá um e-email de confirmação e iremos entrar em contato!</p>
                 </div>
                 <div className='obrigadoMainSection-box-cards'>
                     <div className='obrigadoMainSection-card'>
