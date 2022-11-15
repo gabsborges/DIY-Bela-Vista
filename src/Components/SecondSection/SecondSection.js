@@ -46,7 +46,7 @@ function SecondSection() {
               <div className='wrapper-itens'>
                 <img src="./icone-trabalhadores.png" alt="icones sobre trabalhadores"
                 />
-                <p>+ de 112 mil trabalhadores<br /> formais na região</p>
+                <p>Mais de 112 mil trabalhadores<br /> formais na região</p>
               </div>
               <div className='wrapper-itens'>
               <img src="./icones-metro.png" alt="icones sobre metro"

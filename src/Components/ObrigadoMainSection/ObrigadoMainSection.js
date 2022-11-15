@@ -12,9 +12,9 @@ function ObrigadoMainSection() {
                     <div className='obrigadoMainSection-card'>
                         <h1>Passo 1</h1>
                         <h2>Confira seu e-mail</h2>
-                        <p><strong>(Verificar no spam)</strong></p>
                         <img src='./icone_1.png' alt='icone de e-mail'/>
                         <p>Abra seu e-mail e confira se recebeu a confirmação de sua inscrição.</p>
+                        <p><strong>(Verificar no spam)</strong></p>
                     </div>
                     <div className='obrigadoMainSection-card'>
                         <h1>Passo 2</h1>
