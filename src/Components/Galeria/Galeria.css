@@ -126,6 +126,10 @@
     text-align: center;
 }
 
+.modal-body .carousel-inner .carousel-item {
+    height: 100%;
+}
+
 @media (max-width: 1025px) {
     .galeria h1 {
         font-size: 62px;

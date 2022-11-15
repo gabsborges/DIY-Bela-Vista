@@ -59,7 +59,17 @@ function Galeria() {
                                 <Modal show={show} onHide={handleClose}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./bike-share-carousel.png' /></Modal.Body>
+                                    <Modal.Body>
+                                            <Carousel>
+                                                <CarouselItem><img alt="" src='./bike-share-carousel.png' /></CarouselItem>
+                                                <CarouselItem><img alt="" src='./churrasqueira-carousel.png' /></CarouselItem>
+                                                <CarouselItem><img alt="" src='./coworking-carousel.png' /></CarouselItem>
+                                                <CarouselItem><img alt="" src='./lavanderia-carousel.png' /></CarouselItem>
+                                                <CarouselItem><img alt="" src='./vista-lobby-carousel.png' /></CarouselItem>
+                                                <CarouselItem><img alt="" src='./pet-carousel.png' /></CarouselItem>
+                                                <CarouselItem><img alt="" src='./piscina-carousel.png' /></CarouselItem>
+                                            </Carousel>
+                                        </Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
@@ -77,7 +87,17 @@ function Galeria() {
                                 <Modal show={show2} onHide={handleClose2}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./churrasqueira-carousel.png' /></Modal.Body>
+                                    <Modal.Body>
+                                        <Carousel>
+                                            <CarouselItem><img alt="" src='./churrasqueira-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./coworking-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./lavanderia-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./vista-lobby-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./pet-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./piscina-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./bike-share-carousel.png' /></CarouselItem>
+                                        </Carousel>
+                                    </Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
@@ -95,7 +115,17 @@ function Galeria() {
                                 <Modal show={show3} onHide={handleClose3}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./coworking-carousel.png' /></Modal.Body>
+                                    <Modal.Body>
+                                        <Carousel>
+                                            <CarouselItem><img alt="" src='./coworking-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./lavanderia-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./vista-lobby-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./pet-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./piscina-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./bike-share-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./churrasqueira-carousel.png' /></CarouselItem>
+                                        </Carousel>
+                                    </Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
@@ -113,7 +143,17 @@ function Galeria() {
                                 <Modal show={show4} onHide={handleClose4}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./lavanderia-carousel.png' /></Modal.Body>
+                                    <Modal.Body>
+                                        <Carousel>
+                                            <CarouselItem><img alt="" src='./lavanderia-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./vista-lobby-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./pet-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./piscina-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./bike-share-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./churrasqueira-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./coworking-carousel.png' /></CarouselItem>
+                                        </Carousel>
+                                    </Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
@@ -131,7 +171,17 @@ function Galeria() {
                                 <Modal show={show5} onHide={handleClose5}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./vista-lobby-carousel.png' /></Modal.Body>
+                                    <Modal.Body>
+                                        <Carousel>
+                                            <CarouselItem><img alt="" src='./vista-lobby-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./pet-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./piscina-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./bike-share-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./churrasqueira-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./coworking-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./lavanderia-carousel.png' /></CarouselItem>
+                                        </Carousel>
+                                    </Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
@@ -149,7 +199,17 @@ function Galeria() {
                                 <Modal show={show6} onHide={handleClose6}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./pet-carousel.png' /></Modal.Body>
+                                    <Modal.Body>
+                                        <Carousel>
+                                            <CarouselItem><img alt="" src='./pet-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./piscina-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./bike-share-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./churrasqueira-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./coworking-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./lavanderia-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./vista-lobby-carousel.png' /></CarouselItem>
+                                        </Carousel>
+                                    </Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
@@ -167,7 +227,17 @@ function Galeria() {
                                 <Modal show={show7} onHide={handleClose7}>
                                     <Modal.Header closeButton>
                                     </Modal.Header>
-                                    <Modal.Body><img alt="" src='./piscina-carousel.png' /></Modal.Body>
+                                    <Modal.Body>
+                                        <Carousel>
+                                            <CarouselItem><img alt="" src='./piscina-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./bike-share-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./churrasqueira-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./coworking-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./lavanderia-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./vista-lobby-carousel.png' /></CarouselItem>
+                                            <CarouselItem><img alt="" src='./pet-carousel.png' /></CarouselItem>
+                                        </Carousel>
+                                    </Modal.Body>
                                 </Modal>
                             </div>
                             <div className='galeria-box-texto'>
