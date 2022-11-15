@@ -11,7 +11,7 @@ function ObrigadoMainSection() {
                 <div className='obrigadoMainSection-box-cards'>
                     <div className='obrigadoMainSection-card'>
                         <h1>Passo 1</h1>
-                        <h2>Confira seu e-mail</h2>
+                        <h2>Confira seu e-mail</h2><br/>
                         <img src='./icone_1.png' alt='icone de e-mail'/>
                         <p>Abra seu e-mail e confira se recebeu a confirmação de sua inscrição.</p>
                         <p><strong>(Verificar no spam)</strong></p>
@@ -24,7 +24,7 @@ function ObrigadoMainSection() {
                     </div>
                     <div className='obrigadoMainSection-card'>
                         <h1>Passo 3</h1>
-                        <h2>Não perca a chance de ver o nosso DIY</h2>
+                        <h2>Não perca a chance de <br />ver o nosso DIY</h2>
                         <a href='BOOK_DIY_BELA_VISTA.pdf' target="_blank"><img className='buzz-out-on-hover' src='./icone_3.png' alt='icone para download do book'/></a>
                         <p>Aproveite seu interesse e baixe o book do empreendimento<br/><strong>(Clique no ícone</strong>)</p>
                     </div>
