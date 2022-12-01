@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.1c940e6c.css",
-    "main.js": "./static/js/main.6f702f3d.js",
+    "main.css": "./static/css/main.90b697dd.css",
+    "main.js": "./static/js/main.ca97a4c8.js",
     "static/media/home - mobile.png": "./static/media/home - mobile.035d233932716dd3f010.png",
     "static/media/footer2.png": "./static/media/footer2.0076cb4cdcf0be17addd.png",
     "static/media/obrigado_background.png": "./static/media/obrigado_background.8060b57ca5a23b179c2d.png",
@@ -10,11 +10,11 @@
     "static/media/backgroundfichatec.png": "./static/media/backgroundfichatec.668b4edd837af5e85233.png",
     "static/media/second-background.png": "./static/media/second-background.fc659c559b614e26c210.png",
     "index.html": "./index.html",
-    "main.1c940e6c.css.map": "./static/css/main.1c940e6c.css.map",
-    "main.6f702f3d.js.map": "./static/js/main.6f702f3d.js.map"
+    "main.90b697dd.css.map": "./static/css/main.90b697dd.css.map",
+    "main.ca97a4c8.js.map": "./static/js/main.ca97a4c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c940e6c.css",
-    "static/js/main.6f702f3d.js"
+    "static/css/main.90b697dd.css",
+    "static/js/main.ca97a4c8.js"
   ]
 }
